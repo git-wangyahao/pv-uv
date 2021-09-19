@@ -1,0 +1,14 @@
+npm-debug.log
+yarn-error.log
+node_modules/
+package-lock.json
+yarn.lock
+logs/
+run/
+.idea/
+run/
+.DS_Store
+*.sw*
+*.un~
+typings/
+.nyc_output/

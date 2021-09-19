@@ -1,0 +1,33 @@
+{
+  "name": "zbdj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev --port 7001",
+    "dbinit": "egg-sequelize-auto -o ./app/model -h 192.168.2.200 -p 3306 -d authority -u root -x Win6n8Gwing# -C",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "egg-scripts start --port=7001 --daemon --title=egg-server-showcase",
+    "stop": "egg-scripts stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.29.4",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-scripts": "^2.14.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-socket.io": "^4.1.6",
+    "egg-swagger-doc": "^2.3.2",
+    "egg-validate": "^2.0.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "nodejs-websocket": "^1.7.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4",
+    "egg-sequelize-auto": "^0.1.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}
