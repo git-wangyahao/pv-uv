@@ -44,11 +44,11 @@ exports.swaggerdoc = {
 exports.sequelize = {
   dialect: 'mysql',   // 数据库类型，支持 mysql，sqlite,mssql,pgsql,oracle。
   timezone: '+08:00', // 保存为本地时区
-  host: "192.168.2.200",  // 数据库服务器地址。
+  host: "xxxxx",  // 数据库服务器地址。
   port: 3306, // 数据库连接端口号。
-  database: "authority", // 数据库名称。
-  username: "root",   // 数据库登录用户名。
-  password: "Win6n8Gwing#",   // 数据库登录密码。
+  database: "xxxxx", // 数据库名称。
+  username: "xxxxx",   // 数据库登录用户名。
+  password: "xxxxx",   // 数据库登录密码。
   define: {
       // freezeTableName: true, // Model 对应的表名将与model名相同。
       cameCased: true,
